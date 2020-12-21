@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+}
+
+a.card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+a.card-header.collapsed:after {
+    content: "\f067"; 
+}
+
+.main{
+    min-height: 100vh;
+}
+
+.print-button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: turquoise;
+}
